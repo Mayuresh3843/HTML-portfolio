@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ms html</title>
+    <link rel="stylesheet" href="style.css">
+  
+    <link rel="shortcut icon" href="11.png" type="image/x-icon">
+    <style>
+        .button {
+          border: none;
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          cursor: pointer;
+        }
+        
+        .button1 {background-color: #04AA6D;} /* Green */
+        .button2{ background-color: red;}
+
+table th, td {
+  border: 1px solid black;
+  border-radius: 10px;
+  border-style: dashed;
+}
+tr:nth-of-type(even) {
+    background-color: red;
+}
+tr:nth-of-type(even),td:nth-of-type(even){
+    background-color: brown;
+}
+
+tr a:hover{background-color: black;}
+
+ul{background-color: #04AA6D; list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;}
+li{float: left;}
+li a{color: aliceblue;
+display: block;
+text-align: center;
+padding: 15px;
+}
+.ms {
+  display: flex;
+}
+.ms div {
+  width:33.333%;
+  
+}
+.city{
+    color: aliceblue;
+    padding: 10px;
+    background-color: #04AA6D;
+}
+.main{
+    color: aliceblue;
+    padding: 10px;
+    background-color: red;
+    text-align: center;
+}
+
+.mm{
+    color: aliceblue;
+    padding: 10px;
+    background-color: #04AA6D;
+}
+
+        </style>
+</head>
+<body>
+    <nav>
+<a href="\Home\">Home</a>
+<a style="padding: 20px;" href="\About\">About</a>
+
+
+    </nav>
+    <h1>My first html document</h1>
+    <p>HII</p>
+    <a href="https://www.youtube.com/"> Link to Youtube </a>
+    <br><br>
+    <img src="java.png" width="159" height="152">
+   <a href="https://www.python.org/community/logos/"><h1>Python logo</h1></a>
+   <h1>hii yt</h1>
+<strong>Mayuresh</strong>
+<!-- ho -->
+ <p style="border: 1px solid red;"> Hii This is a border</p>
+<button onclick="document.location='https://www.youtube.com/' " style=" padding: 15px 32px; border: solid red; cursor: pointer;">HTML Tutorial</button>
+<button onclick="document.location"></button>
+<button class="button button1"> green</button>
+<br>
+<button class="button button2"> red</button>
+<button onclick= "document.location='https://www.youtube.com/ '"> Youtube</button>   
+<button onclick="document.location='https://www.youtube.com/'"> yyt</button>
+<br>
+
+<table style="width: 100%;">
+    <tr style="height: 100%;">
+        <th colspan="2"> Computer</th>
+        <th> Pc</th>
+        <th>laptop</th>
+
+    </tr>
+    <tr>
+        <td> 1</td>
+        <td>hd</td>
+        <td>shs</td>
+        <td>hhgf</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>dk</td>
+        <td>sadgw</td>
+        <td>hhh</td>
+    </tr>
+   </table>
+   <br><br>
+   <button type="button" onclick="alert('Hello world!')">Click Me!</button>
+ <button onclick="alert('Hii I am Ms')" style="background-color: black; color: aliceblue; cursor:pointer ;border: solid red; padding:15px 32px ; margin-left: 12px; "> Click</button>
+<button type="submit" onclick="alert('hii')">ssj</button>
+
+<form>
+    Email ID:
+    <input type="email">
+    <br>
+    <br> Password:
+    <input type="password">
+    <br><br>
+
+    <input type="submit">
+    <input type="reset">
+    
+</form>
+
+<h1>List</h1>
+<ul>
+    <li>Apple</li>
+    <li>mango</li>
+    <li>banana</li>
+</ul>
+<ol>
+    <li>Apple</li>
+    <li>mango</li>
+    <li>banana</li>
+</ol>
+<br><br>
+<ul>
+    <li><a href="#Home">Home</a></li>
+    <li><a href="#Gallary">Gallary</a></li>
+    <li><a href="#About us">About us</a></li>
+    <li><a href="#Contact">Contact</a></li>
+</ul>
+<br><br>
+<nav style="background-color: #04AA6D;color: aliceblue; padding: 22px; cursor: pointer;">
+    <a href="#Home" style="padding: 12px;">Home</a>
+    <a href="#Gallary" style="padding: 12px;">Gallary</a>
+    <a href="#About us" style="padding: 12px;">About us</a>
+    <a href="#Contact" style="padding: 12px;">Contact</a>
+</nav>
+
+<div>hii</div>
+<div class="ms">
+
+<div style="background-color: red;">
+<h1>dgfd</h1>
+<p>sfsfaf</p>
+</div>
+
+<div style="background-color: burlywood;">
+    <h1>dfsf</h1>
+<p> Hi i dsds</p>
+</div>
+
+    <div style="background-color: skyblue;">
+<h1>dggs</h1>
+<p>sfsfs</p>
+    </div>
+</div>
+
+<h2 class="city">
+    London
+</h2>
+
+<h2 class="main"> new york</h2>
+<h2 class="mm"> nashik</h2>
+
+<iframe src="m.html" height="200" width="300" title="iframe"> </iframe>
+
+<p id="demo">Hi My name is Mayuresh</p>
+<script>
+    function myfunction(){
+        document.getElementById("demo") .style.color="blue";
+        document.getElementById("demo") .style.backgroundColor="orange";
+        document.getElementById("demo") .style.fontSize="25px";
+    }
+    
+</script>
+<button type="button" onclick="myfunction()">Click here</button>
+
+
+</body>
+</html>
